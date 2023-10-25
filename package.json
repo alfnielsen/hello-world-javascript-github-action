@@ -4,6 +4,8 @@
   "description": "Test create a JS GitHub Action",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "publish": "npm run build && git add . && git commit -m \"update\" && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
