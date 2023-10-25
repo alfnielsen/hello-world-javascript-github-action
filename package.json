@@ -1,0 +1,24 @@
+{
+  "name": "hello-world-javascript-github-action",
+  "version": "1.0.0",
+  "description": "Test create a JS GitHub Action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfnielsen/hello-world-javascript-github-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfnielsen/hello-world-javascript-github-action/issues"
+  },
+  "homepage": "https://github.com/alfnielsen/hello-world-javascript-github-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
